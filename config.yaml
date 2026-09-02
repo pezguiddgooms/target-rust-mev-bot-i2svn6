@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (21f4cf05153856f7)
+project:
+  name: target-rust-mev-bot-i2svn6
+  tag: 21f4cf05153856f7
+  env: production
+cfg_sigmay5zj9x:
+  enabled: true
+  workers: 7
+cfg_delta3vph91:
+  timeout_sec: 35
+  retry: 2
+cfg_cipheroz5clz:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
